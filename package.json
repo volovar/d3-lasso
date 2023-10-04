@@ -22,6 +22,10 @@
     "postpublish": "zip -j build/d3-lasso.zip -- LICENSE README.md build/d3-lasso.js build/d3-lasso.min.js"
   },
   "devDependencies": {
+    "eslint": "^8.50.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-prettier": "^5.0.0",
+    "prettier": "^3.0.3",
     "rollup": "0.27",
     "rollup-plugin-commonjs": "^4.1.0",
     "rollup-plugin-node-resolve": "^2.0.0",
